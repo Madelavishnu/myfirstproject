@@ -6,7 +6,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 
 # Load the dataset
-movies = pd.read_csv("D:/movie_recommender/movies.csv/movies.csv")
+movies = pd.read_csv("D:/movie_recommender/movies.csv/movies.csv")#apply dataset
+
 
 # Handle missing genres
 movies['genres'] = movies['genres'].fillna('')
